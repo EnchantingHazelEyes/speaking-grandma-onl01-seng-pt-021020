@@ -13,9 +13,8 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  phrase = "I love you Grandma!"
-  if phrase != phrase.upcase
-    print "HUH?! SPEAK UP, SONNY!"
+  if phrase == 'I LOVE YOU GRANDMA!'
+     print "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == phrase.upcase
     print "NO, NOT SINCE 1938!"
   elsif phrase == "I LOVE YOU GRANDMA!"
@@ -23,6 +22,7 @@ def speak_to_grandma(phrase)
   else 
      print "HUH?! SPEAK UP, SONNY!"
   end
+  puts phrase
 end  
   
   speak_to_grandma('I LOVE YOU GRANDMA!')
