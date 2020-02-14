@@ -22,7 +22,6 @@ def speak_to_grandma(phrase)
   else 
      puts "HUH?! SPEAK UP, SONNY!"
   end
+
+  speak_to_grandma("I LOVE YOU GRANDMA!")
 end  
-  
-  speak_to_grandma('Hi nana, how are you?')
-  
